@@ -1,0 +1,19 @@
+@import "tailwindcss";
+/* Custom notification colors */
+.Toastify__toast--success {
+  background: linear-gradient(to right, #4ade80, #22c55e);
+}
+.Toastify__toast--error {
+  background: linear-gradient(to right, #f87171, #ef4444);
+}
+.Toastify__toast--info {
+  background: linear-gradient(to right, #60a5fa, #3b82f6);
+}
+.Toastify__toast--warning {
+  background: linear-gradient(to right, #fbbf24, #f59e0b);
+}
+
+/* Loading spinner */
+.Toastify__progress-bar--animated {
+  background: rgba(255,255,255,0.5) !important;
+}
